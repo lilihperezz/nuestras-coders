@@ -1,0 +1,45 @@
+
+.padre{
+       width: 800px;
+       height: 800px;
+       position: relative;
+       margin: 50px;
+}
+.hijo {
+	    position: relative;
+	    color: #090909;
+	    padding-bottom: 30px;
+	    color:black;
+	    font-family: Arial black;
+	    font-size: 16px;
+
+}
+.nieto {
+        height: 410px;
+        padding: 5px;
+}
+    hr {
+		width: 85px;
+		height: 3px;
+		background: #000000;
+		position: absolute;
+
+}
+.imagen{
+	    margin-left: 20px;
+	    margin-right: 20px;
+	    display: inline-block;	
+	    position: relative;
+	    width: 200px;
+	    height: 200px;
+	    margin-bottom: -35px;
+	}
+      p{
+	    color:#ADB4BA;
+	    position: relative;
+	    bottom: 45px;
+	    left: 70px;
+}
+.opacity {
+        -webkit-filter: brightness(65%);
+         filter: brightness(65%);
